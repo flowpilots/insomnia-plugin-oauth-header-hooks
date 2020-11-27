@@ -15,6 +15,6 @@
     "Flow Pilots <info@flowpilots.com> https://flowpilots.com",
     "Adem Aytaç <adem@aytacworld.com> https://aytacworld.com"
   ],
-
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
