@@ -12,12 +12,12 @@ Add configuration by setting OAUTH_HEADER_HOOKS_CONFIG environment variable.
 
 ```
 {
-	"OAUTH_HEADER_HOOKS_CONFIG": {
-		"tokenEndpoint": "/oauth/token",
+  "OAUTH_HEADER_HOOKS_CONFIG": {
+    "tokenEndpoint": "/oauth/token",
     "exclude": [
       "/public-accesible-endpoint",
       {url: "/another-publicly-available-url", method: "post"}
     ]
-	}
+  }
 }
 ```
