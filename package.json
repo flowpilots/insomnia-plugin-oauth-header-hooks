@@ -1,0 +1,19 @@
+{
+  "name": "insomnia-plugin-oauth-header-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "url": "TODO"
+  },
+  "insomnia": {
+    "name": "OAuth 2 Header Hooks",
+    "description": "Used for automatically add Bearer token to all requests"
+  },
+  "contributors": [
+    "Flow Pilots <info@flowpilots.com> https://flowpilots.com",
+    "Adem Aytaç <adem@aytacworld.com> https://aytacworld.com"
+  ],
+
+  "license": "MIT"
+}
