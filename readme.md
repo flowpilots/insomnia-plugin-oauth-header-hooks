@@ -8,12 +8,16 @@ Install the `insomnia-plugin-oauth-header-hooks` plugin from Preferences > Plugi
 
 ## Usage
 
-Add configuration by setting OAUTH_HEADER_HOOKS environment variable.
+Add configuration by setting OAUTH_HEADER_HOOKS_CONFIG environment variable.
 
 ```
 {
-	"OAUTH_HEADER_HOOKS": {
+	"OAUTH_HEADER_HOOKS_CONFIG": {
 		"tokenEndpoint": "/oauth/token",
+    "exclude": [
+      "/public-accesible-endpoint",
+      {url: "/another-publicly-available-url", method: "post"}
+    ]
 	}
 }
 ```
