@@ -7,7 +7,8 @@
     "url": "TODO"
   },
   "insomnia": {
-    "name": "OAuth 2 Header Hooks",
+    "name": "oauth-header-hooks",
+    "displayName": "OAuth 2 Header Hooks",
     "description": "Used for automatically add Bearer token to all requests"
   },
   "contributors": [
